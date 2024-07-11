@@ -13,6 +13,7 @@ export const AppContainer = styled.div`
 export const ColumnContainer = styled.div`
   background-color: #ebecf0;
   width: 300px;
+  color: black;
   min-width: 40px;
   margin-right: 20px;
   border-radius: 3px;
@@ -40,7 +41,7 @@ interface AddItemButtonProps {
   dark?: boolean;
 }
 export const AddItemButton = styled.button<AddItemButtonProps>`
-  background-color: #ffff3d;
+  background-color: lightgray;
   border-radius: 3px;
   border: none;
   color: ${(props) => (props.dark ? "#000" : "#fff")};
